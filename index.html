@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <!--Favicon-->
+        <link rel="icon" href="img/logo_black.png"/>
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+        <!--Main CSS-->
+        <link rel="stylesheet" href="main.css" type="text/css">
+
+        <!--Animate.css-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
+
+        <!--Hover.css-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" />
+
+        <!--Google Fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+        <!--Font Awesome-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        
+        <!--Main JS-->
+        <script src="main.js"></script>
+
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <title>Kyle Johnstone</title>
+    </head>
+    <body>
+        
+        <!-- Circles -->
+        <ul class="circles">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+        </ul>
+
+      <div class="outer">
+
+        <!-- Page Content -->
+        <div class="container inner_remaining">
+          <div class="row" id="home-content">
+            <div class="col-lg-12 text-center">
+                <div class="mb-2 hvr-buzz-out"><img height="100" src="img/logo_white.svg"/></div>
+                <b>
+                <div class="mb-3" id="toptext">kyle johnstone</div>
+                <div class="btn-group">
+                <button class="btn btn-outline-light hvr-bob" 
+                        onmouseover="toptext('about me')" onmouseout="toptext('kyle johnstone')"
+                        onclick="bottomtext('computer science student proficient in html, css, php, js, c#, java, python & sql')">
+                    <i class="fas fa-question"></i></button>
+
+                <button class="btn btn-outline-light hvr-bob" 
+                        onmouseover="toptext('my projects')" onmouseout="toptext('kyle johnstone')"
+                        onclick="bottomtext(&quot;<a href='#' class='badge badge-primary'><i class='fas fa-lightbulb'></i> project 1</a><br><a href='#' class='badge badge-secondary'><i class='fas fa-lightbulb'></i> project 2</a><br><a href='#' class='badge badge-danger'><i class='fas fa-lightbulb'></i> project 3</a>&quot;)">
+                    <i class="fas fa-project-diagram"></i></button>
+
+                <button class="btn btn-outline-light hvr-bob"
+                        onmouseover="toptext('socials / contact me')" onmouseout="toptext('kyle johnstone')"
+                        onclick="bottomtext(&quot;<a href='#' class='badge badge-primary'><i class='fab fa-linkedin'></i> www.linkedin.com</a><br><a href='https://github.com/johnstonekyle' class='badge badge-secondary'><i class='fab fa-github'></i> github.com/johnstonekyle</a><br><a href='#' class='badge badge-danger'><i class='fab fa-youtube'></i> www.youtube.com</a>&quot;)">
+                    <i class="fas fa-phone"></i></button>
+                </div>
+                </b>
+                <div class="mt-2" id="bottomtext"></div>
+            </div>
+          </div>
+        </div>
+    </div>
+        
+    
+        
+    
+
+
+        <script>
+        $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+        </script>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    </body>
+</html>
